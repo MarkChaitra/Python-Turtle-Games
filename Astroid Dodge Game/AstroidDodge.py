@@ -10,9 +10,9 @@ window.setup(width=500, height=500)
 window.tracer(0)
 
 #Ship
-window.addshape("AstroidDodge game/rocketShip.gif")  # File must be in the same folder
+window.addshape("Astroid Dodge Game/rocketShip.gif")  # File must be in the same folder
 Ship = turtle.Turtle()
-Ship.shape("AstroidDodge game/rocketShip.gif")
+Ship.shape("Astroid Dodge Game/rocketShip.gif")
 Ship.shapesize(stretch_wid=0.5, stretch_len=0.5)
 Ship.penup()
 Ship.goto(0,-170)
